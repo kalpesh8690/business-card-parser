@@ -1,0 +1,30 @@
+{
+  "name": "@mrk-ai/business-card-parser",
+  "version": "1.0.0",
+  "description": "Business card image parser using Gemini 2.0 Flash API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "business-card",
+    "parser",
+    "gemini",
+    "google",
+    "generative",
+    "ocr"
+  ],
+  "author": "MRK",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
